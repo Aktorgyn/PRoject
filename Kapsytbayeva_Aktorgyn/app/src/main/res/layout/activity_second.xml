@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickFilter"
+            android:text="Filter">
+        </Button>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frgcnt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <fragment  android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/mymap"
+            android:name="com.google.android.gms.maps.SupportMapFragment" />
+    </FrameLayout>
+
+</LinearLayout>

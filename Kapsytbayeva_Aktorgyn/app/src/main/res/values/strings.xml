@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Kapsytbayeva_Aktorgyn</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="names">
+        <item>Cinema</item>
+        <item>Cafe</item>
+        <item>Park</item>
+    </string-array>
+    <string-array name="planets_array">
+        <item>Cinema</item>
+        <item>Cafe</item>
+        <item>Park</item>
+
+    </string-array>
+</resources>
